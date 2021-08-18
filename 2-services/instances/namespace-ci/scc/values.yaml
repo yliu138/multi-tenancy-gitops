@@ -4,4 +4,4 @@ global: {}
 service-account:
   name: pipeline
   create: false
-  sccs: ["privileged"]
+  sccs: ["privileged"] # bad habits like the admin

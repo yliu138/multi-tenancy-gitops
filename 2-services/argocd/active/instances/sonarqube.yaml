@@ -15,8 +15,8 @@ spec:
   project: services
   source:
     path: 2-services/instances/sonarqube
-    repoURL: https://github.com/cloud-native-toolkit/multi-tenancy-gitops.git
-    targetRevision: master
+    repoURL: https://github.com/yliu138/multi-tenancy-gitops.git
+    targetRevision: demo-mq-v2-yliu138
     helm:
       valueFiles:
       - values.yaml
